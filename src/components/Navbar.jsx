@@ -3,7 +3,6 @@ import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Navbar = () => {
     const { data: session, status } = useSession();
     console.log(session);
